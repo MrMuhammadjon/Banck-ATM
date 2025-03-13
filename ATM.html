@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="atm.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <div class="pin-code">
+        <h1>
+            Pin - code
+        </h1>
+        <input id="Pidpasword" type="password">
+        <button onclick="checkPin()">acc</button>
+    </div>
+    
+    <div class="center-cards">
+        <div class="head-dash-board">
+            <div class="deposit-secreen screen">
+                <h1>Deposit</h1>
+                <h2 id="Deposit">100</h2>
+            </div>
+            <div class="withdraw-secreen screen">
+                <h1>Withdraw</h1>
+                <h2 id="Withdraw">100</h2>
+            </div>
+            <div class="balance-secreen screen">
+                <h1>Balance</h1>
+                <h2 id="Balance">100</h2>
+            </div>
+        </div>
+        <div class="inpust-dash-board">
+            <div class="deposite-container button-for-a">
+                <h2>Deposit</h2>
+                <input id="deposit-input" type="number">
+                <button onclick="De()">Deposit</button>
+            </div>
+            <div class="withdraw-container button-for-a">
+                <h2>Withdraw</h2>
+                <input id="withdraw-input" type="number">
+                <button onclick="wi()">Withdraw</button>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

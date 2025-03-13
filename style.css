@@ -154,13 +154,14 @@ header{
     z-index: 1;
 }
 
-.home-l-btn h1{
+.home-l-btn a{
     font-size: 30px;
     position: relative;
     z-index: 2;
     color: var(--text-color-5);
     font-weight: 400;
     transition: 0.3s ease;
+    text-decoration: none;
 }
 
 .home-l-btn::before{
@@ -181,7 +182,7 @@ header{
     transform: translateX(10%);
 }
 
-.home-l-btn:hover.home-l-btn h1{
+.home-l-btn:hover.home-l-btn a{
     color: var(--text-color-1);
 }
 
@@ -269,9 +270,23 @@ section{
     gap: 20px;
 }
 
+.costums-l-main p{
+    display: flex;
+    align-items: center;
+}
+
 .costums-l img{
     width: 150px;
     height: 150px;
     object-fit: cover;
     border-radius: 50%;
+}
+
+.costums-r {
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px;
+    color: var(--text-color-5);
+    font-family: var(--font-famly-1);
+    gap: 20px;
 }
